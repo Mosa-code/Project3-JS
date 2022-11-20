@@ -3,40 +3,45 @@
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1)
   {
-    /* Media query for laptops*/
-    ul.Nav_bar{
-      font-family: 'Times New Roman', Times, serif;
+    /* Media query for laptops 
+    copypasting my code into here
+    */
+    ul.nav_bar{
+      font-family: 'Rubik', sans-serif;
       height: 80px;
       list-style: none;
     }
     
-    .nav_bar li ul{
-      display: inline-block;
-      padding: .5cm;
-      text-align: center;
-    }
-    li{
-      font-size: larger;
-      font-weight: bold;
-    }
-
     a:link, a:visited, a:hover, a:active{
       text-decoration: none;
       color: white;
     }
+    
+    .nav_bar ul li{
+    display: inline-block;
+    padding: .5cm;
+    text-align: center;
+    }
+    
+    li{
+      font-size: larger;
+      font-weight: bold;
+    }
+    
     nav.nav_bar {
       list-style-type: none;
       margin: 0;
       padding: 0;
       text-align: center;
       overflow: hidden;
-      background-color: rgb(69,26,26);
+      background-color: rgb(69, 26, 26);
       width: 100%;
-      padding:0;
-      margin-left: 0px;
+      display: inline-block;
+      padding: 0;
+      margin-left: 0px; 
     }
     
-    nav.navbar li a{
+    nav.nav_bar li a{
       display: block;
       color: #fff;
       text-align: center;
@@ -46,7 +51,7 @@
       padding: 10px 0px 8px 0px;
       border-radius: 4px;
     }
-
+    
     li a{
       display: block;
       color: white;
@@ -54,10 +59,77 @@
       padding: 14px 16px;
       text-decoration: none;
     }
-
     li a:hover{
       background-color: #111;
     }
+    
+    
+    h1{
+      text-align: center;
+      text-decoration: underline;
+      color: darkolivegreen;
+      padding: .1%;
+      float: none;
+    }
+    
+    .Intro{
+      text-align: center;
+      font-size: 2em;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2{
+      margin-left: .5cm;
+      margin-top: .5cm;
+      position: relative;
+      float:none;
+      text-align: center;
+    }
+    
+    p{
+      margin-right: 100px;
+      margin-left: 20px;
+    }
+    
+    .onpage{
+      background-image: url("../image/cool-background.png");
+      background-repeat: no-repeat;
+      background-size:cover;
+    }
+    .onpage1{
+      background-image: url("../image/crissxcross.png");
+      background-repeat:repeat;
+      background-color: #00b4f5;  
+    }
+    .onpage1 img{
+      display:block;
+      margin-left: auto;
+      margin-right:auto;
+      height: 15cm;
+      width: 20cm;
+    }
+    
+    .onpage2{
+      margin:auto;
+      background-image: url("../image/cool-background2.png");
+      background-repeat: repeat;
+    }
+    
+    .onpage2 img{
+      display:block;
+      margin-left: auto;
+      margin-right:auto;
+      height: 20cm;
+      width: 20cm;
+    }
+    
+    .onpage2 #wrapper{
+      margin:0;
+      padding: 0;
+      border: 0;
+    }
+    
+   
   }
 
 
