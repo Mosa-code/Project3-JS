@@ -3,7 +3,25 @@
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1)
   {
+    /* Media query for laptops*/
+    ul.Nav_bar{
+      font-family: 'Times New Roman', Times, serif;
+      height: 80px;
+      list-style: none;
+    }
     
+    .Nav_bar{
+      font-family: 'Times New Roman', Times, serif;
+      height: 80px;
+      list-style: none;
+    }
+     
+    .nav_bar li ul{
+
+    }
+    li{
+      
+    }
   }
 
 
