@@ -17,10 +17,30 @@
     }
      
     .nav_bar li ul{
-
+      display: inline-block;
+      padding: .5cm;
+      text-align: center;
     }
     li{
-      
+      font-size: larger;
+      font-weight: bold;
+    }
+
+    a:link, a:visited, a:hover, a:active{
+      text-decoration: none;
+      color: white;
+    }
+    nav.nav_bar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow: hidden;
+      background-color: rgb(69,26,26);
+      width: 100%;
+      padding:0;
+      margin-left: 0px;
+
     }
   }
 
