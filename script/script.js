@@ -1,5 +1,5 @@
 function myFunction() {
-  let btn = document.getElementById("btnLike"); 
+  let btn = document.getElementById("likebtn"); 
   if(btn.innerText === 'Like') {
     btn.innerText = 'Liked';
   } else  {
