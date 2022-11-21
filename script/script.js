@@ -6,3 +6,7 @@ function myFunction() {
     btn.innerText = 'Like';
   } 
 }
+
+function scary() {
+  alert("Boo!")
+}

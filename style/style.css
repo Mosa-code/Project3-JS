@@ -120,4 +120,15 @@ p{
   padding: 0;
   border: 0;
 }
+#guessinggame{
+  display: block;
+  float: right;
+  text-align: center;
+}
+
+#entryinput{
+  height: 100px;
+  text-align: center;
+  border: 10px 
+}
 
